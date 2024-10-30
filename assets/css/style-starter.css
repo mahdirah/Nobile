@@ -62,6 +62,14 @@ hr {
   height: 0;
   overflow: visible; }
 
+  .button-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100%; /* Full width to ensure centering works */
+    height: 100vh; /* Optional: Center vertically within viewport height */
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem; }
@@ -412,11 +420,22 @@ mark,
     content: "\2014\00A0"; }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto; 
+
+  width: 100%; /* Ensures the image fills the container width */
+  height: 237px; /* Set a fixed height; adjust as needed */
+  object-fit: cover; /* Makes the image fill the set dimensions without distortion */
+  display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 20%;
+  /* border-radius: 8px; */
+  /* max-width: 100%;
+  height: auto;  */
+  /* width: 237px;
+  height: 237px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20%; */
 }
 
 .img-thumbnail {
@@ -3108,8 +3127,7 @@ input[type="button"].btn-block {
   line-height: inherit;
   white-space: nowrap; }
   .navbar-brand:hover, .navbar-brand:focus {
-    text-decoration: none; }
-
+    text-decoration: none; }    
 .navbar-nav {
   display: flex;
   flex-direction: column;
@@ -10400,7 +10418,7 @@ nav ul li a:hover {
   position: relative; }
 
 .w3l-main-slider .banner-view {
-  background: url(../images/banner1.jpg) no-repeat center;
+  background: url(../images/b1.png) no-repeat center;
   background-size: cover;
   min-height: calc(100vh - 10px);
   position: relative;
@@ -10410,15 +10428,15 @@ nav ul li a:hover {
   padding: 3em 0; }
 
 .w3l-main-slider .banner-top1 {
-  background: url(../images/banner.jpg) no-repeat center;
+  background: url(../images/b2.png) no-repeat center;
   background-size: cover; }
 
 .w3l-main-slider .banner-top2 {
-  background: url(../images/banner3.jpg) no-repeat center;
+  background: url(../images/b6-rotated.png) no-repeat center;
   background-size: cover; }
 
 .w3l-main-slider .banner-top3 {
-  background: url(../images/banner4.jpg) no-repeat center;
+  background: url(../images/b3.png) no-repeat center;
   background-size: cover; }
 
 .w3l-main-slider .banner-view:before {
@@ -10556,7 +10574,7 @@ a.title-head:hover {
     font-size: 20px; } }
 
 .w3l-footer-29-main .footer-29 {
-  background: #3b3d3b; }
+  background: #4a4a4a; }
 
 .w3l-footer-29-main h6.footer-title-29 {
   color: #fff;

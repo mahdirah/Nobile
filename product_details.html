@@ -31,9 +31,9 @@
                       <li class="nav-item @@home__active">
                           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                       </li>
-                      <li class="nav-item @@about__active">
+                      <!-- <li class="nav-item @@about__active">
                           <a class="nav-link" href="about.html">About</a>
-                      </li>
+                      </li> -->
                       <li class="nav-item @@services__active">
                           <a class="nav-link" href="products.html">Products</a>
                       </li>
@@ -72,7 +72,7 @@
               </div>
           </div>
       </section>
-      <div id="product-content" class="product-content">
+      <div id="product-content" class="product-content w3l-features-8">
        
     
         <!-- Product Gallery Section -->
@@ -196,7 +196,7 @@
                 if (product) {
                     // Update the page with the product details
                     document.getElementById("product-name").textContent = product.name;
-                    document.getElementById("product-price").textContent = "Price: " + product.price;
+                    document.getElementById("product-price").textContent = `Price: $ ${product.price}`;
                     document.getElementById("product-description").textContent = product.description;
                     const thumbnailGallery = document.querySelector(".thumbnail-gallery");
                     const mainImage = document.getElementById("mainImage");
