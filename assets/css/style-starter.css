@@ -10460,6 +10460,7 @@ nav ul li a:hover {
 
 @media (max-width: 768px) {
   .w3l-main-slider .banner-view {
+    background-position: center right;
     min-height: 530px; }
   .w3l-main-slider .banner-info-bg h5 {
     font-size: 40px;
@@ -10467,6 +10468,7 @@ nav ul li a:hover {
 
 @media (max-width: 568px) {
   .w3l-main-slider .banner-view {
+    background-position: center right;
     min-height: 500px; }
   .w3l-main-slider .banner-info-bg {
     margin-top: 50px; } }
