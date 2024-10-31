@@ -10418,7 +10418,7 @@ nav ul li a:hover {
   position: relative; }
 
 .w3l-main-slider .banner-view {
-  background: url(../images/b1.png) no-repeat center;
+  background: url(../images/b2.png) no-repeat center;
   background-size: cover;
   min-height: calc(100vh - 10px);
   position: relative;
@@ -10428,15 +10428,15 @@ nav ul li a:hover {
   padding: 3em 0; }
 
 .w3l-main-slider .banner-top1 {
-  background: url(../images/b2.png) no-repeat center;
+  background: url(../images/b1.png) no-repeat center;
   background-size: cover; }
 
 .w3l-main-slider .banner-top2 {
-  background: url(../images/b6-rotated.png) no-repeat center;
+  background: url(../images/b3.png) no-repeat center;
   background-size: cover; }
 
 .w3l-main-slider .banner-top3 {
-  background: url(../images/b3.png) no-repeat center;
+  background: url(../images/b6-rotated.png) no-repeat center;
   background-size: cover; }
 
 .w3l-main-slider .banner-view:before {
