@@ -1842,16 +1842,16 @@ fieldset:disabled a.btn {
 .btn-primary {
   color: #fff;
   background-color: #507451;
-  border-color: #507451; }
+  border-color: #446545; }
   .btn-primary:hover {
     color: #fff;
-    background-color: #a95905;
-    border-color: #9c5305; }
+    background-color: #5a875b;
+    border-color: #5a875b; }
   .btn-primary:focus, .btn-primary.focus {
     color: #fff;
-    background-color: #a95905;
-    border-color: #9c5305;
-    box-shadow: 0 0 0 0.2rem rgba(213, 131, 43, 0.5); }
+    background-color: #5a875b;
+    border-color: #5a875b;
+    box-shadow: 0 0 0 0.2rem rgba(43, 213, 122, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
     background-color: #507451;
@@ -1859,11 +1859,11 @@ fieldset:disabled a.btn {
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #9c5305;
-    border-color: #904c04; }
+    background-color: #059c2d;
+    border-color: #049027; }
     .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
     .show > .btn-primary.dropdown-toggle:focus {
-      box-shadow: 0 0 0 0.2rem rgba(213, 131, 43, 0.5); }
+      box-shadow: 0 0 0 0.2rem rgba(43, 213, 77, 0.5); }
 
 .btn-secondary {
   color: #212529;
@@ -3134,7 +3134,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none; 
-/*   padding-right: 12%; */
+  /* padding-right: 12%; */
 }
   .navbar-nav .nav-link {
     padding-right: 0;
@@ -9742,7 +9742,8 @@ p.white {
 
 .transparent-btn:hover {
   color: #fff;
-  background: rgba(194, 194, 194, 0.15); }
+  background: #007bff;
+ }
 
 .nav-fixed .transparent-btn {
   color: var(--heading-color);
@@ -10451,6 +10452,7 @@ nav ul li a:hover {
 
 @media (max-width: 992px) {
   .w3l-main-slider .banner-view {
+    background-position: center right;
     min-height: 600px; }
   .w3l-main-slider .banner-info-bg h5 {
     font-size: 50px;
@@ -10461,14 +10463,14 @@ nav ul li a:hover {
 @media (max-width: 768px) {
   .w3l-main-slider .banner-view {
     background-position: center right;
-    min-height: 530px; }
+    min-height: 530px; 
+  }
   .w3l-main-slider .banner-info-bg h5 {
     font-size: 40px;
     line-height: 45px; } }
 
 @media (max-width: 568px) {
   .w3l-main-slider .banner-view {
-    background-position: center right;
     min-height: 500px; }
   .w3l-main-slider .banner-info-bg {
     margin-top: 50px; } }
