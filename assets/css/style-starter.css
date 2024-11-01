@@ -3134,7 +3134,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none; 
-  /* padding-right: 12%; */
+  padding-right: 12%;
 }
   .navbar-nav .nav-link {
     padding-right: 0;
