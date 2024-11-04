@@ -19,7 +19,8 @@ h1 {
 
 .product-card {
     width: 20%;
-    background-color:#f8f7f5; 
+    position: relative;
+    background-color: #f8f7f5;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
@@ -27,6 +28,8 @@ h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s;
 }
+
+
 /* Media query for mobile devices */
 @media (max-width: 768px) {
     .product-card {
