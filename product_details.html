@@ -12,7 +12,7 @@
     <header id="site-header" class="fixed-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg stroke px-0 pt-lg-0">
-              <h1>  <a class="navbar-brand" href="/Nobile/index.html">
+              <h1>  <a class="navbar-brand" href="#index.html">
                 <img src="./assets/images/logo.png" alt="logo" title=" Nobile" style="height:30px; margin-bottom: 5px;" />
                 <span class="fa"></span> Nobile </a>
               </h1>
@@ -91,6 +91,8 @@
         <div class="product-description">
             <h1 id="product-name">Product Name</h1>
             <p id="product-price">Price: $0</p>
+            <p id="product-color">Color: </p>
+
             <p id="product-description">Product description will be loaded here.</p>
         </div>
     </div>
@@ -196,25 +198,11 @@
                 if (product) {
                     // Update the page with the product details
                     document.getElementById("product-name").textContent = product.name;
-                    document.getElementById("product-price").textContent = `Price: $ ${product.price}`;
+                    document.getElementById("product-price").textContent = `Price: € ${product.price}`;
+                    document.getElementById("product-color").textContent = `Color: ${product.color}`;
                     document.getElementById("product-description").textContent = product.description;
                     const thumbnailGallery = document.querySelector(".thumbnail-gallery");
                     const mainImage = document.getElementById("mainImage");
-                    // const mainPhoto = document.getElementById("product-main-photo");
-                    // const imgElement = document.createElement("img");
-                    // imgElement.src = product.image;
-                    // mainPhoto.appendChild(imgElement);
-            
-
-                    // Load and display the product images
-                    // const gallery = document.getElementById("product-gallery");
-                    // product.other_photos.forEach(image => {
-                    //     const imgElement = document.createElement("img");
-                    //     imgElement.src = `${image}`;
-                    //     imgElement.alt = product.name;
-                    //     imgElement.classList.add("product-image"); // Add any necessary styling class
-                    //     gallery.appendChild(imgElement);
-                    // });
                     
                     product.other_photos.forEach((image, index) => {
                         const imgElement = document.createElement("img");

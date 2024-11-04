@@ -1,144 +1,267 @@
 [
-    {   "id": 1,
-        "name": "Noblie 2000",
-        "price": "329",
-        "image": "assets/images/a1.jpg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "other_photos": ["assets/images/a2.jpg","assets/images/a3.jpg","assets/images/1.jpg"]
+    {
+        "id": 1,
+        "name": "Linea",
+        "price": "88.99",
+        "image": "assets/images/linea_blue/main.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "Blue",
+        "other_photos": [
+            "assets/images/linea_blue/main.jpg",
+            "assets/images/linea_blue/1.jpg",
+            "assets/images/linea_blue/2.jpg"
+        ]
     },
     {
         "id": 2,
-        "name": "Nobile chic",
-        "price": "329",
-        "image": "assets/images/a2.jpg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "other_photos": ["assets/images/a2.jpg","assets/images/a3.jpg","assets/images/1.jpg"]
+        "name": "Bordo",
+        "price": "82.69",
+        "image": "assets/images/bordo/main.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "grey and black",
+        "other_photos": [
+            "assets/images/bordo/main.jpg",
+            "assets/images/bordo/1.jpg",
+            "assets/images/bordo/2.jpg",
+            "assets/images/bordo/3.jpg",
+            "assets/images/bordo/4.jpg"
 
+        ]
     },
     {
         "id": 3,
-        "name": "Noblie light",
-        "price": "329",
-        "image": "assets/images/a3.jpg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "other_photos": ["assets/images/a2.jpg","assets/images/a3.jpg","assets/images/1.jpg"]
-
+        "name": "Spesso",
+        "price": "87.39",
+        "image": "assets/images/spesso_brown/main.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "Brown&Blue",
+        "other_photos": [
+            "assets/images/spesso_brown/main.jpg",
+            "assets/images/spesso_brown/1.jpg",
+            "assets/images/spesso_brown/2.jpg",
+            "assets/images/spesso_brown/3.jpg"
+           
+        ]
     },
     {
         "id": 4,
-        "name": "Nobile wow",
-        "price": "329",
-        "image": "assets/images/1.jpg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "other_photos": ["assets/images/a2.jpg","assets/images/a3.jpg","assets/images/1.jpg"]
-
+        "name": "Spesso",
+        "price": "81.31",
+        "image": "assets/images/spesso_green/main.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "Grey&Green",
+        "other_photos": [
+            "assets/images/spesso_green/main.jpg",
+            "assets/images/spesso_green/1.jpg",
+            "assets/images/spesso_green/2.jpg"
+        ]
     },
     {
         "id": 5,
-        "name": "Nobile nobile",
-        "price": "329",
-        "image": "assets/images/2.jpg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "other_photos": ["assets/images/a2.jpg","assets/images/a3.jpg","assets/images/1.jpg"]
-
+        "name": "Nero",
+        "price": "87.15",
+        "image": "assets/images/nero/main.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "Black",
+        "other_photos": [
+            "assets/images/nero/main.jpg",
+            "assets/images/nero/1.jpg",
+            "assets/images/nero/2.jpg",
+            "assets/images/nero/3.jpg"
+           
+        ]
     },
     {
         "id": 6,
-        "name": "Nobile chic",
-        "price": "329",
-        "image": "assets/images/3.jpg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "other_photos": ["assets/images/a2.jpg","assets/images/a3.jpg","assets/images/1.jpg"]
-
+        "name": "Rigido",
+        "price": "84.00",
+        "image": "assets/images/rigido_blue_sky/main.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "Blue Sky",
+        "other_photos": [
+            "assets/images/rigido_blue_sky/main.jpg",
+            "assets/images/rigido_blue_sky/1.jpg"
+        ]
     },
     {
         "id": 7,
-        "name": "Nobile wow",
-        "price": "329",
-        "image": "assets/images/a1.jpg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "other_photos": ["assets/images/a2.jpg","assets/images/a3.jpg","assets/images/1.jpg"]
-
+        "name": "Forma",
+        "price": "93.75",
+        "image": "assets/images/forma_fiery/main.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "Fiery",
+        "other_photos": [
+            "assets/images/forma_fiery/main.jpg",
+            "assets/images/forma_fiery/1.jpg",
+            "assets/images/forma_fiery/2.jpg",
+            "assets/images/forma_fiery/3.jpg"
+           
+        ]
     },
     {
         "id": 8,
-        "name": "Noblie 2000",
-        "price": "329",
-        "image": "assets/images/a2.jpg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "other_photos": ["assets/images/a2.jpg","assets/images/a3.jpg","assets/images/1.jpg"]
-
+        "name": "Filo",
+        "price": "75.25",
+        "image": "assets/images/filo_brown/main.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "Brown",
+        "other_photos": [
+            "assets/images/filo_brown/main.jpg",
+            "assets/images/filo_brown/1.jpg",
+            "assets/images/filo_brown/2.jpg"
+           
+        ]
     },
     {
         "id": 9,
-        "name": "Noblie light",
-        "price": "329",
-        "image": "assets/images/a3.jpg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "other_photos": ["assets/images/a2.jpg","assets/images/a3.jpg","assets/images/1.jpg"]
-
+        "name": "Brando",
+        "price": "93.75",
+        "image": "assets/images/brando/main.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "Black",
+        "other_photos": [
+            "assets/images/brando/main.jpg",
+            "assets/images/brando/1.jpg"
+        ]
     },
     {
         "id": 10,
-        "name": "Nobile chic",
-        "price": "329",
-        "image": "assets/images/1.jpg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "other_photos": ["assets/images/a2.jpg","assets/images/a3.jpg","assets/images/1.jpg"]
-
+        "name": "Ovale",
+        "price": "85.45",
+        "image": "assets/images/ovale/main.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "Grenn",
+        "other_photos": [
+            "assets/images/ovale/main.jpg",
+            "assets/images/ovale/1.jpg",
+            "assets/images/ovale/2.jpg"
+            
+        ]
     },
     {
         "id": 11,
-        "name": "Nobile nobile",
-        "price": "329",
-        "image": "assets/images/2.jpg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "other_photos": ["assets/images/a2.jpg","assets/images/a3.jpg","assets/images/1.jpg"]
-
+        "name": "Rigido",
+        "price": "86.42",
+        "image": "assets/images/rigido_moss_green/main.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "Moss Green",
+        "other_photos": [
+            "assets/images/rigido_moss_green/main.jpg"
+        ]
     },
     {
         "id": 12,
-        "name": "Nobile wow",
-        "price": "329",
-        "image": "assets/images/3.jpg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "other_photos": ["assets/images/a2.jpg","assets/images/a3.jpg","assets/images/1.jpg"]
-
+        "name": "Forma",
+        "price": "90.99",
+        "image": "assets/images/forma_black/main.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "Black with wreath",
+        "other_photos": [
+            "assets/images/forma_black/main.jpg",
+            "assets/images/forma_black/1.jpg",
+            "assets/images/forma_black/2.jpg"
+        ]
     },
     {
         "id": 13,
-        "name": "Noblie 2000",
-        "price": "329",
-        "image": "assets/images/a2.jpg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "other_photos": ["assets/images/a2.jpg","assets/images/a3.jpg","assets/images/1.jpg"]
-
+        "name": "Struttura",
+        "price": "84.90",
+        "image": "assets/images/struttura/main.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "Beige",
+        "other_photos": [
+            "assets/images/struttura/main.jpg",
+            "assets/images/struttura/1.jpg",
+            "assets/images/struttura/2.jpg"
+           
+        ]
     },
     {
         "id": 14,
-        "name": "Nobile chic",
-        "price": "329",
-        "image": "assets/images/a3.jpg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "other_photos": ["assets/images/a2.jpg","assets/images/a3.jpg","assets/images/1.jpg"]
-
+        "name": "Linea",
+        "price": "90.40",
+        "image": "assets/images/linea_brown_streaked/main.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "Brown Streaked",
+        "other_photos": [
+            "assets/images/linea_brown_streaked/main.jpg",
+            "assets/images/linea_brown_streaked/1.jpg",
+            "assets/images/linea_brown_streaked/2.jpg"
+        
+        ]
     },
     {
         "id": 15,
-        "name": "Noblie light",
-        "price": "329",
-        "image": "assets/images/1.jpg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "other_photos": ["assets/images/a2.jpg","assets/images/a3.jpg","assets/images/1.jpg"]
-
+        "name": "Rigido",
+        "price": "90.99",
+        "image": "assets/images/rigido_black_wreath/main.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "Black with wreath",
+        "other_photos": [
+            "assets/images/rigido_black_wreath/main.jpg",
+            "assets/images/rigido_black_wreath/1.jpg",
+            "assets/images/rigido_black_wreath/2.jpg",
+            "assets/images/rigido_black_wreath/3.jpg",
+            "assets/images/rigido_black_wreath/4.jpg"
+           
+        ]
     },
     {
         "id": 16,
-        "name": "Nobile nobile",
-        "price": "329",
-        "image": "assets/images/2.jpg",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "other_photos": ["assets/images/a2.jpg","assets/images/a3.jpg","assets/images/1.jpg"]
-
+        "name": "Filo",
+        "price": "74.39",
+        "image": "assets/images/filo_black/main.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "Black",
+        "other_photos": [
+            "assets/images/filo_black/main.jpg",
+            "assets/images/filo_black/1.jpg",
+            "assets/images/filo_black/2.jpg"
+           
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Rigido",
+        "price": "89.60",
+        "image": "assets/images/rigido_black/main.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "Black",
+        "other_photos": [
+            "assets/images/rigido_black/main.jpg",
+            "assets/images/rigido_black/1.jpg",
+            "assets/images/rigido_black/2.jpg"
+            
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Cubo",
+        "price": "93.20",
+        "image": "assets/images/cubo/main.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "Fiery",
+        "other_photos": [
+            "assets/images/cubo/main.jpg",
+            "assets/images/cubo/1.jpg",
+            "assets/images/cubo/2.jpg",
+            "assets/images/cubo/3.jpg",
+            "assets/images/cubo/4.jpg"
+          
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Linea",
+        "price": "90.40",
+        "image": "assets/images/linea_brown/main.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "color": "Brown",
+        "other_photos": [
+            "assets/images/linea_brown/main.jpg",
+            "assets/images/linea_brown/1.jpg",
+            "assets/images/linea_brown/2.jpg"
+      
+        ]
     }
 ]

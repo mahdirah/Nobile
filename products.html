@@ -17,7 +17,7 @@
 <header id="site-header" class="fixed-top">
   <div class="container">
       <nav class="navbar navbar-expand-lg stroke px-0 pt-lg-0">
-        <h1>  <a class="navbar-brand" href="/Nobile/index.html">
+        <h1>  <a class="navbar-brand" href="/index.html">
           <img src="./assets/images/logo.png" alt="logo" title=" Nobile" style="height:30px; margin-bottom: 5px;" />
           <span class="fa"></span> Nobile </a>
         </h1>
@@ -185,9 +185,14 @@ fetch('products.json')
             name.textContent = product.name;
             productInfo.appendChild(name);
             
+            // const color = document.createElement('p');
+            // color.classList.add('Color');
+            // color.textContent = `${product.color}`;
+            // productInfo.appendChild(color);
+
             const price = document.createElement('p');
-            price.classList.add('price');
-            price.textContent = `$ ${product.price}`;
+            price.classList.add('Price');
+            price.textContent = `€ ${product.price}`;
             productInfo.appendChild(price);
             
             // Add info to card
