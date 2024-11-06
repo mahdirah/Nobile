@@ -20,7 +20,7 @@
         <h1>  <a class="navbar-brand" href="index.html">
           <img src="./assets/images/logo.png" alt="logo" title=" Nobile" style="height:30px; margin-bottom: 5px;" />
           <span class="fa"></span>
-          <img src="./assets/images/logo_name.png" alt="logo name" title=" Nobile" />
+          <img id="logo-name" src="./assets/images/logo_name_white.png" alt="logo name" title=" Nobile" />
         </a>
         </h1>
           <!-- if logo is image enable this   
@@ -539,10 +539,16 @@ fetch('products.json')
   $(window).on("scroll", function () {
     var scroll = $(window).scrollTop();
 
+    var logoName = $("#logo-name");
+
     if (scroll >= 80) {
       $("#site-header").addClass("nav-fixed");
+      logoName.attr("src", "./assets/images/logo_name.png");
+
     } else {
       $("#site-header").removeClass("nav-fixed");
+      logoName.attr("src", "./assets/images/logo_name_white.png");
+
     }
   });
 
