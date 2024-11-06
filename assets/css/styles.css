@@ -130,12 +130,9 @@ h1 {
 .thumbnail-gallery {
     display: flex;
     flex-direction: column;
-    overflow-x: scroll;
     margin: 15px;
     padding: 10px;
-    -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x mandatory;
-    overflow-x: scroll;
+ 
 
     /* gap: 10px;
     margin-top: 20px;
@@ -152,7 +149,6 @@ h1 {
     border-radius: 5px;
     transition: transform 0.2s, filter 0.2s;
     filter: grayscale(100%);
-    scroll-snap-align: start;
     /* object-fit: cover;
     cursor: pointer;
     border: 2px solid transparent;
@@ -251,6 +247,7 @@ h1 {
     .thumbnail-gallery img {
         width: 50px;
         height: auto;
+        flex-shrink: 0;
     }
 
     .product-description {
@@ -277,6 +274,9 @@ h1 {
         flex-direction: row;
         justify-content: center;
         gap: 5px;
+        overflow-x: auto; /* Enables horizontal scrolling */
+        white-space: nowrap; /* Prevents wrapping of thumbnails to new lines */
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
     }
 }
 
