@@ -130,6 +130,7 @@ h1 {
 .thumbnail-gallery {
     display: flex;
     flex-direction: column;
+    overflow-x: scroll;
     margin: 15px;
     padding: 10px;
     -webkit-overflow-scrolling: touch;
@@ -151,6 +152,7 @@ h1 {
     border-radius: 5px;
     transition: transform 0.2s, filter 0.2s;
     filter: grayscale(100%);
+    scroll-snap-align: start;
     /* object-fit: cover;
     cursor: pointer;
     border: 2px solid transparent;
