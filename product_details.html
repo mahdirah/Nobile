@@ -248,54 +248,7 @@
         <p id="product-price">Price: $0</p>
     </div> -->
 
-    <script>
-        const gallery = document.querySelector('.thumbnail-gallery');
-      
-        let isDown = false;
-        let startX;
-        let scrollLeft;
-      
-        gallery.addEventListener('mousedown', (e) => {
-          isDown = true;
-          startX = e.pageX - gallery.offsetLeft;
-          scrollLeft = gallery.scrollLeft;
-        });
-      
-        gallery.addEventListener('mouseleave', () => {
-          isDown = false;
-        });
-      
-        gallery.addEventListener('mouseup', () => {
-          isDown = false;
-        });
-      
-        gallery.addEventListener('mousemove', (e) => {
-          if (!isDown) return;
-          e.preventDefault();
-          const x = e.pageX - gallery.offsetLeft;
-          const walk = (x - startX) * 2; // Multiplier for speed
-          gallery.scrollLeft = scrollLeft - walk;
-        });
-      
-        // Optional: Touch events for mobile devices
-        gallery.addEventListener('touchstart', (e) => {
-          isDown = true;
-          startX = e.touches[0].pageX - gallery.offsetLeft;
-          scrollLeft = gallery.scrollLeft;
-        });
-      
-        gallery.addEventListener('touchend', () => {
-          isDown = false;
-        });
-      
-        gallery.addEventListener('touchmove', (e) => {
-          if (!isDown) return;
-          e.preventDefault();
-          const x = e.touches[0].pageX - gallery.offsetLeft;
-          const walk = (x - startX) * 2; // Multiplier for speed
-          gallery.scrollLeft = scrollLeft - walk;
-        });
-      </script>
+  
       
     <script>
         // productDetails.js
