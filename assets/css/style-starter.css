@@ -34,6 +34,10 @@
 *::before,
 *::after {
   box-sizing: border-box; }
+/* @font-face {
+    font-family: 'Gruppo'; 
+    src: local('/El_Messiri,Gruppo,Kodchasan/Gruppo/Gruppo-Regular.ttf'); 
+} */
 
 html {
   font-family: sans-serif;
@@ -3134,7 +3138,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none; 
-  padding-right: 12%;
+  padding-right: 18%;
 }
   .navbar-nav .nav-link {
     padding-right: 0;
@@ -11580,7 +11584,7 @@ button.owl-next {
 
 .breadcrumb-bg-about {
   background-size: cover;
-  background-image: linear-gradient(to left, rgba(25, 25, 25, 0.60), rgba(0, 0, 0, 0.60)), url(../images/innerbg.jpg);
+  background-image: linear-gradient(to right, rgba(25, 25, 25, 0.70), rgba(0, 0, 0, 0.70)), url(../images/innerbg.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: bottom;
   background-attachment: fixed; }
