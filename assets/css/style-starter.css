@@ -10503,6 +10503,9 @@ nav ul li a:hover {
 @media (max-width: 568px) {
   .left-wthree-img {
     padding: 0 8px; }
+  .col-md-4.col-6.left-wthree-img.mt-lg-0.mt-md-5.mt-4 {
+      display: none;
+  }
   .w3l-servicesblock .row .row {
     padding: 0 8px; } }
 
