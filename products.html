@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -7,6 +8,7 @@
 
     <title>Products</title>
     <link rel="icon" href="assets/images/logo.png">
+    <link href="//fonts.googleapis.com/css?family=Mukta:300,400,500" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
 
     <!-- Template CSS -->
@@ -23,6 +25,8 @@
           <img id="logo-name" src="./assets/images/logo_name_white.png" alt="logo name" title=" Nobile" />
         </a>
         </h1>
+
+   
           <!-- if logo is image enable this   
   <a class="navbar-brand" href="#index.html">
       <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
@@ -33,12 +37,13 @@
               <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
               <span class="navbar-toggler-icon fa icon-close fa-times"></span>
           </button>
+
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mx-lg-auto">
                 <li class="nav-item @@home__active">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <!-- <li class="nav-item @@about__active">
+                <!-- <li class="nav-item @@about_active">
                     <a class="nav-link" href="about.html">About</a>
                 </li> -->
                 <li class="nav-item active">
@@ -50,11 +55,8 @@
             </ul>
             
         </div>
-
-        
           <!-- toggle switch for light and dark theme -->
           <div class="mobile-position">
-
               <nav class="navigation">
                   <div class="theme-switch-wrapper">
                       <label class="theme-switch" for="checkbox">
@@ -79,12 +81,13 @@
         </div>
     </div>
 </section>
-<!-- <h1>Our Products</h1> -->
-<div class="w3l-features-8" style="padding-top: 4%;">
-  <h3 class="title-big text-center">Our Products</h3>
-  <div id="productGrid" class="product-grid"></div>
-</div>
 
+<section class="w3l-features-8" >
+  <div style="padding-top: 4%;">
+    <h3 class="title-big text-center">Our Products</h3>
+    <div id="productGrid" class="product-grid"></div>
+  </div>
+  </section>
 
 <section class="w3l-footer-29-main">
   <div class="footer-29 py-5">
@@ -129,7 +132,6 @@
     </div>
   </div>
 
-
   <!-- move top -->
   <button onclick="topFunction()" id="movetop" title="Go to top">
     <span class="fa fa-angle-up"></span>
@@ -157,7 +159,23 @@
   <!-- //move top -->
 </section>
 
-<!-- <iframe id="contentIframe" src="specific.html" style="width:100%; border:none; height: 100vh;" ></iframe> -->
+<!-- Template JavaScript -->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+
+<script src="assets/js/theme-change.js"></script>
+
+<!-- js for portfolio lightbox -->
+<script src="assets/js/jquery-2.1.4.min.js"></script>
+<script src="assets/js/jquery.chocolat.js "></script>
+<!--light-box-files -->
+<script type="text/javascript ">
+  $(function () {
+    $('.w3_agile_portfolio_grid a').Chocolat();
+  });
+</script>
+<!-- /js for portfolio lightbox -->
+
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
 <script>
   // Fetch products from JSON file and render them
 fetch('products.json')
@@ -212,176 +230,6 @@ fetch('products.json')
     .catch(error => console.error('Error loading products:', error));
 
 </script>
-<!-- <script src="assets/js/script.js"></script> -->
-
-
-	<!--prdt-starts-->
-
-	<!--product-end-->
-
-<!-- tabs team-->
-<!-- <section class="team py-5" id="team">
-	<div class="container py-lg-5 py-md-4 py-2">
-		<ul class="nav nav-pills" id="pills-tab1" role="tablist">
-			<li class="nav-item">
-				<a class="nav-link active" id="pills-team1-tab" data-toggle="pill" href="#pills-team1" role="tab" aria-controls="pills-team1" aria-selected="true"><img src="assets/images/1.png" class="img-fluid" alt="" /></a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" id="pills-team2-tab" data-toggle="pill" href="#pills-team2" role="tab" aria-controls="pills-team2" aria-selected="false"><img src="assets/images/2.png" class="img-fluid" alt="" /></a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" id="pills-team3-tab" data-toggle="pill" href="#pills-team3" role="tab" aria-controls="pills-team3" aria-selected="false"><img src="assets/images/3.png" class="img-fluid" alt="" /></a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" id="pills-team4-tab" data-toggle="pill" href="#pills-team4" role="tab" aria-controls="pills-team4" aria-selected="false"><img src="assets/images/4.png" class="img-fluid" alt="" /></a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" id="pills-team5-tab" data-toggle="pill" href="#pills-team1" role="tab" aria-controls="pills-team1" aria-selected="true"><img src="assets/images/1.png" class="img-fluid" alt="" /></a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" id="pills-team6-tab" data-toggle="pill" href="#pills-team2" role="tab" aria-controls="pills-team2" aria-selected="false"><img src="assets/images/2.png" class="img-fluid" alt="" /></a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" id="pills-team7-tab" data-toggle="pill" href="#pills-team3" role="tab" aria-controls="pills-team3" aria-selected="false"><img src="assets/images/3.png" class="img-fluid" alt="" /></a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" id="pills-team8-tab" data-toggle="pill" href="#pills-team4" role="tab" aria-controls="pills-team4" aria-selected="false"><img src="assets/images/4.png" class="img-fluid" alt="" /></a>
-			</li>
-		</ul>
-		<div class="tab-content" id="pills-tabContent1">
-			<div class="tab-pane fade show active" id="pills-team1" role="tabpanel" aria-labelledby="pills-team1-tab">
-				<div class="team-grids row">
-					<div class="col-lg-6">
-						<img src="assets/images/1.png" class="img-fluid" alt="" />
-					</div>
-					<div class="col-lg-6 align-self mt-lg-0 mt-md-5 mt-4">
-						<h4>Espresso <span>Short & Intense - $19.50</span></h4>
-						<p class="pt-3">Donec malesuada ex sit amet pretium sid ornare. Nulla congue scelerisque tellus, utpretium. Mauris suscipit
-                        nisi ut ipsum egestas, et velit convallis. Phasellus rhoncus tempus. </p>
-                        <a href="#buy" class="btn btn-style btn-primary mt-md-5 mt-4">Buy Now</a>
-					</div>
-				</div>
-			</div>
-			<div class="tab-pane fade" id="pills-team2" role="tabpanel" aria-labelledby="pills-team2-tab">
-				<div class="team-grids row">
-					<div class="col-lg-6">
-						<img src="assets/images/2.png" class="img-fluid" alt="" />
-					</div>
-					<div class="col-lg-6 align-self mt-lg-0 mt-md-5 mt-4">
-						<h4>Americano <span> Simple and smooth - $17.50</span></h4>
-						<p class="pt-3">Donec malesuada ex sit amet pretium sid ornare. Nulla congue scelerisque tellus, utpretium. Mauris suscipit
-						nisi ut ipsum egestas, et velit convallis. Phasellus rhoncus tempus. </p>
-                        <a href="#buy" class="btn btn-style btn-primary mt-md-5 mt-4">Buy Now</a>
-					</div>
-				</div>
-			</div>
-			<div class="tab-pane fade" id="pills-team3" role="tabpanel" aria-labelledby="pills-team3-tab">
-				<div class="team-grids row">
-					<div class="col-lg-6">
-						<img src="assets/images/3.png" class="img-fluid" alt="" />
-					</div>
-					<div class="col-lg-6 align-self mt-lg-0 mt-md-5 mt-4">
-						<h4>Latte
-                            <span>Mild & Milky - $11.90</span></h4>
-						<p class="pt-3">Donec malesuada ex sit amet pretium sid ornare. Nulla congue scelerisque tellus, utpretium. Mauris suscipit
-						nisi ut ipsum egestas, et velit convallis. Phasellus rhoncus tempus. </p>
-                        <a href="#buy" class="btn btn-style btn-primary mt-md-5 mt-4">Buy Now</a>
-					</div>
-				</div>
-			</div>
-			<div class="tab-pane fade" id="pills-team4" role="tabpanel" aria-labelledby="pills-team4-tab">
-				<div class="team-grids row">
-					<div class="col-lg-6">
-						<img src="assets/images/4.png" class="img-fluid" alt="" />
-					</div>
-					<div class="col-lg-6 align-self mt-lg-0 mt-md-5 mt-4">
-						<h4>Cappuccino
-                            <span>Famously frothy - $9.00</span></h4>
-						<p class="pt-3">Donec malesuada ex sit amet pretium sid ornare. Nulla congue scelerisque tellus, utpretium. Mauris suscipit
-						nisi ut ipsum egestas, et velit convallis. Phasellus rhoncus tempus. </p>
-                        <a href="#buy" class="btn btn-style btn-primary mt-md-5 mt-4">Buy Now</a>
-					</div>
-				</div>
-			</div>
-			<div class="tab-pane fade show" id="pills-team5" role="tabpanel" aria-labelledby="pills-team1-tab">
-				<div class="team-grids row">
-					<div class="col-lg-6">
-						<img src="assets/images/1.png" class="img-fluid" alt="" />
-					</div>
-					<div class="col-lg-6 align-self mt-lg-0 mt-md-5 mt-4">
-						<h4>Cortado
-                            <span>Small & Luxurious - $15.00</span></h4>
-						<p class="pt-3">Donec malesuada ex sit amet pretium sid ornare. Nulla congue scelerisque tellus, utpretium. Mauris suscipit
-						nisi ut ipsum egestas, et velit convallis. Phasellus rhoncus tempus. </p>
-                        <a href="#buy" class="btn btn-style btn-primary mt-md-5 mt-4">Buy Now</a>
-					</div>
-				</div>
-			</div>
-			<div class="tab-pane fade" id="pills-team2" role="tabpanel" aria-labelledby="pills-team6-tab">
-				<div class="team-grids row">
-					<div class="col-lg-6">
-						<img src="assets/images/2.png" class="img-fluid" alt="" />
-					</div>
-					<div class="col-lg-6 align-self mt-lg-0 mt-md-5 mt-4">
-						<h4>Flat White
-                            <span>Rich & Velvety - $11.99</span></h4>
-						<p class="pt-3">Donec malesuada ex sit amet pretium sid ornare. Nulla congue scelerisque tellus, utpretium. Mauris suscipit
-						nisi ut ipsum egestas, et velit convallis. Phasellus rhoncus tempus. </p>
-                        <a href="#buy" class="btn btn-style btn-primary mt-md-5 mt-4">Buy Now</a>
-					</div>
-				</div>
-			</div>
-			<div class="tab-pane fade" id="pills-team3" role="tabpanel" aria-labelledby="pills-team7-tab">
-				<div class="team-grids row">
-					<div class="col-lg-6">
-						<img src="assets/images/3.png" class="img-fluid" alt="" />
-					</div>
-					<div class="col-lg-6 align-self mt-lg-0 mt-md-5 mt-4">
-						<h4>Espresso <span>Short & Intense - $19.50</span></h4>
-						<p class="pt-3">Donec malesuada ex sit amet pretium sid ornare. Nulla congue scelerisque tellus, utpretium. Mauris suscipit
-						nisi ut ipsum egestas, et velit convallis. Phasellus rhoncus tempus. </p>
-                        <a href="#buy" class="btn btn-style btn-primary mt-md-5 mt-4">Buy Now</a>
-					</div>
-				</div>
-			</div>
-			<div class="tab-pane fade" id="pills-team4" role="tabpanel" aria-labelledby="pills-team8-tab">
-				<div class="team-grids row">
-					<div class="col-lg-6">
-						<img src="assets/images/4.png" class="img-fluid" alt="" />
-					</div>
-					<div class="col-lg-6 align-self mt-lg-0 mt-md-5 mt-4">
-						<h4>Latte
-                            <span>Mild & Milky - $08.50</span></h4>
-						<p class="pt-3">Donec malesuada ex sit amet pretium sid ornare. Nulla congue scelerisque tellus, utpretium. Mauris suscipit
-						nisi ut ipsum egestas, et velit convallis. Phasellus rhoncus tempus. </p>
-                        <a href="#buy" class="btn btn-style btn-primary mt-md-5 mt-4">Buy Now</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section> -->
-
-
-
-
-<!-- Template JavaScript -->
-<script src="assets/js/jquery-3.3.1.min.js"></script>
-
-<script src="assets/js/theme-change.js"></script>
-
-<!-- js for portfolio lightbox -->
-<script src="assets/js/jquery-2.1.4.min.js"></script>
-<script src="assets/js/jquery.chocolat.js "></script>
-<!--light-box-files -->
-<script type="text/javascript ">
-  $(function () {
-    $('.w3_agile_portfolio_grid a').Chocolat();
-  });
-</script>
-<!-- /js for portfolio lightbox -->
-
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
 <script>
   $(document).ready(function () {
     $('.popup-with-zoom-anim').magnificPopup({

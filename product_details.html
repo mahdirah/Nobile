@@ -6,6 +6,8 @@
     <title>Product Details</title>
     <link rel="icon" href="assets/images/logo.png">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link href="//fonts.googleapis.com/css?family=Mukta:300,400,500" rel="stylesheet">
+
     <link rel="stylesheet" href="assets/css/style-starter.css">
 
 </head>
@@ -189,21 +191,6 @@
           </div>
         </div>
       
-        <script>
-            // Script to toggle content visibility for each table section
-            document.querySelectorAll('.table-header').forEach(header => {
-                header.addEventListener('click', () => {
-                    const content = header.nextElementSibling;
-                    const icon = header.querySelector('.table-icon');
-        
-                    // Toggle the display of the content
-                    content.style.display = content.style.display === 'block' ? 'none' : 'block';
-        
-                    // Toggle the icon between "+" and "-"
-                    icon.textContent = icon.textContent === "+" ? "−" : "+";
-                });
-            });
-        </script>
         <!-- move top -->
         <button onclick="topFunction()" id="movetop" title="Go to top">
           <span class="fa fa-angle-up"></span>
@@ -249,7 +236,21 @@
     </div> -->
 
   
-      
+    <script>
+        // Script to toggle content visibility for each table section
+        document.querySelectorAll('.table-header').forEach(header => {
+            header.addEventListener('click', () => {
+                const content = header.nextElementSibling;
+                const icon = header.querySelector('.table-icon');
+    
+                // Toggle the display of the content
+                content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    
+                // Toggle the icon between "+" and "-"
+                icon.textContent = icon.textContent === "+" ? "−" : "+";
+            });
+        });
+    </script>
     <script>
         // productDetails.js
         // Get the product ID from the URL
