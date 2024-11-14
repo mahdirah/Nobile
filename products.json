@@ -2,9 +2,20 @@
     {
         "id": 1,
         "name": "Linea",
-        "price": "88.99",
+        "price": "89.00",
         "image": "assets/images/linea_blue/main.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "These frames a rectangular design with bold lines, adding a unique and modern touch to the face. Crafted from high-quality materials, they ensure durability and comfort, making them suitable for everyday wear. The meticulous craftsmanship and attention to detail highlight a sense of luxury and authenticity. The temples are elegantly engraved with the brand’s name, showcasing a sleek and distinguished style. These glasses are an ideal choice for those seeking a combination of style and comfort.",
+        "frame_description":[  
+            "Handcrafted",
+            "FRAME SHAPE: Rectangle",
+            "FRAME COLOUR: Black blue brown",
+            "FRAME MATERIAL: Italian acetate"
+        ],
+        "lens_description":[
+            "Material: Trivex",
+            "Lens color: Blue & Yellow",
+            "Uv400"
+        ],
         "color": "Blue",
         "other_photos": [
             "assets/images/linea_blue/main.jpg",
@@ -15,9 +26,20 @@
     {
         "id": 2,
         "name": "Bordo",
-        "price": "82.69",
+        "price": "83.00",
         "image": "assets/images/bordo/main.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "These frames feature a unique geometric design that stands out with bold and distinctive contours. Made with premium-quality materials, they offer both durability and a lightweight feel for maximum comfort. The intricate craftsmanship ensures a flawless finish, highlighting attention to detail and an appreciation for refined aesthetics. The temples are carefully engraved with the Nobile branding, enhancing the frame’s sophisticated and modern look. These glasses are a perfect choice for individuals who seek a blend of innovative design, quality, and comfort.",
+        "frame_description":[  
+            "Handcrafted",
+            "FRAME SHAPE: Rectangle",
+            "FRAME COLOUR: Blue&Brown, Gray&Green",
+            "FRAME MATERIAL: Italian acetate"
+        ],
+        "lens_description":[
+            "Material:Trivex",
+            "Lens color: Blue & Green",
+            "Uv400"
+        ],
         "color": "grey and black",
         "other_photos": [
             "assets/images/bordo/main.jpg",
@@ -31,9 +53,20 @@
     {
         "id": 3,
         "name": "Spesso",
-        "price": "87.39",
+        "price": "88.00",
         "image": "assets/images/spesso_brown/main.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "These frames feature a unique geometric design that stands out with bold and distinctive contours. Made with premium-quality materials, they offer both durability and a lightweight feel for maximum comfort. The intricate craftsmanship ensures a flawless finish, highlighting attention to detail and an appreciation for refined aesthetics. The temples are carefully engraved with the Nobile branding, enhancing the frame’s sophisticated and modern look. These glasses are a perfect choice for individuals who seek a blend of innovative design, quality, and comfort.",
+        "frame_description":[  
+            "Handcrafted",
+            "FRAME SHAPE: Rectangle",
+            "FRAME COLOUR: Blue&Brown, Gray&Green",
+            "FRAME MATERIAL: Italian acetate"
+        ],
+        "lens_description":[
+            "Material:Trivex",
+            "Lens color: Blue & Green",
+            "Uv400"
+        ],
         "color": "Brown&Blue",
         "other_photos": [
             "assets/images/spesso_brown/main.jpg",
@@ -46,9 +79,20 @@
     {
         "id": 4,
         "name": "Spesso",
-        "price": "81.31",
+        "price": "82.00",
         "image": "assets/images/spesso_green/main.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "These frames feature a unique geometric design that stands out with bold and distinctive contours. Made with premium-quality materials, they offer both durability and a lightweight feel for maximum comfort. The intricate craftsmanship ensures a flawless finish, highlighting attention to detail and an appreciation for refined aesthetics. The temples are carefully engraved with the Nobile branding, enhancing the frame’s sophisticated and modern look. These glasses are a perfect choice for individuals who seek a blend of innovative design, quality, and comfort.",
+        "frame_description":[  
+            "Handcrafted",
+            "FRAME SHAPE: Rectangle",
+            "FRAME COLOUR: Blue&Brown, Gray&Green",
+            "FRAME MATERIAL: Italian acetate"
+        ],
+        "lens_description":[
+            "Material:Trivex",
+            "Lens color: Blue & Green",
+            "Uv400"
+        ],
         "color": "Grey&Green",
         "other_photos": [
             "assets/images/spesso_green/main.jpg",
@@ -59,9 +103,21 @@
     {
         "id": 5,
         "name": "Nero",
-        "price": "87.15",
+        "price": "90.00",
         "image": "assets/images/nero/main.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "",
+        "frame_description":[  
+            "Handcrafted",
+            "FRAME SHAPE: Irregular",
+            "FRAME COLOUR: Black",
+            "FRAME MATERIAL: Italian acetate",
+            "TEMPLE COLOUR: Black"
+        ],
+        "lens_description":[
+            "Material: Trivex",
+            "Lens color: green and gray",
+            "Uv400"
+        ],
         "color": "Black",
         "other_photos": [
             "assets/images/nero/main.jpg",
@@ -76,7 +132,18 @@
         "name": "Rigido",
         "price": "84.00",
         "image": "assets/images/rigido_blue_sky/main.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "These frames feature a unique geometric design that stands out with bold and distinctive contours. Made with premium-quality materials, they offer both durability and a lightweight feel for maximum comfort. The intricate craftsmanship ensures a flawless finish, highlighting attention to detail and an appreciation for refined aesthetics. The temples are carefully engraved with the Nobile branding, enhancing the frame’s sophisticated and modern look. These glasses are a perfect choice for individuals who seek a blend of innovative design, quality, and comfort.",
+        "frame_description":[  
+            "Handcrafted",
+            "FRAME SHAPE: Rectangle",
+            "FRAME COLOUR: Blue&Brown, Gray&Green",
+            "FRAME MATERIAL: Italian acetate"
+        ],
+        "lens_description":[
+            "Material:Trivex",
+            "Lens color: Blue & Green",
+            "Uv400"
+        ],
         "color": "Blue Sky",
         "other_photos": [
             "assets/images/rigido_blue_sky/main.jpg",
@@ -86,9 +153,20 @@
     {
         "id": 7,
         "name": "Forma",
-        "price": "93.75",
+        "price": "94.00",
         "image": "assets/images/forma_fiery/main.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "These frames feature a unique geometric design that stands out with bold and distinctive contours. Made with premium-quality materials, they offer both durability and a lightweight feel for maximum comfort. The intricate craftsmanship ensures a flawless finish, highlighting attention to detail and an appreciation for refined aesthetics. The temples are carefully engraved with the Nobile branding, enhancing the frame’s sophisticated and modern look. These glasses are a perfect choice for individuals who seek a blend of innovative design, quality, and comfort.",
+        "frame_description":[  
+            "Handcrafted",
+            "FRAME SHAPE: Rectangle",
+            "FRAME COLOUR: Blue&Brown, Gray&Green",
+            "FRAME MATERIAL: Italian acetate"
+        ],
+        "lens_description":[
+            "Material:Trivex",
+            "Lens color: Blue & Green",
+            "Uv400"
+        ],
         "color": "Fiery",
         "other_photos": [
             "assets/images/forma_fiery/main.jpg",
@@ -101,9 +179,20 @@
     {
         "id": 8,
         "name": "Filo",
-        "price": "75.25",
+        "price": "75.00",
         "image": "assets/images/filo_brown/main.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "These frames feature a unique geometric design that stands out with bold and distinctive contours. Made with premium-quality materials, they offer both durability and a lightweight feel for maximum comfort. The intricate craftsmanship ensures a flawless finish, highlighting attention to detail and an appreciation for refined aesthetics. The temples are carefully engraved with the Nobile branding, enhancing the frame’s sophisticated and modern look. These glasses are a perfect choice for individuals who seek a blend of innovative design, quality, and comfort.",
+        "frame_description":[  
+            "Handcrafted",
+            "FRAME SHAPE: Rectangle",
+            "FRAME COLOUR: Blue&Brown, Gray&Green",
+            "FRAME MATERIAL: Italian acetate"
+        ],
+        "lens_description":[
+            "Material:Trivex",
+            "Lens color: Blue & Green",
+            "Uv400"
+        ],
         "color": "Brown",
         "other_photos": [
             "assets/images/filo_brown/main.jpg",
@@ -115,9 +204,20 @@
     {
         "id": 9,
         "name": "Brando",
-        "price": "93.75",
+        "price": "94.00",
         "image": "assets/images/brando/main.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "These frames feature a unique geometric design that stands out with bold and distinctive contours. Made with premium-quality materials, they offer both durability and a lightweight feel for maximum comfort. The intricate craftsmanship ensures a flawless finish, highlighting attention to detail and an appreciation for refined aesthetics. The temples are carefully engraved with the Nobile branding, enhancing the frame’s sophisticated and modern look. These glasses are a perfect choice for individuals who seek a blend of innovative design, quality, and comfort.",
+        "frame_description":[  
+            "Handcrafted",
+            "FRAME SHAPE: Rectangle",
+            "FRAME COLOUR: Blue&Brown, Gray&Green",
+            "FRAME MATERIAL: Italian acetate"
+        ],
+        "lens_description":[
+            "Material:Trivex",
+            "Lens color: Blue & Green",
+            "Uv400"
+        ],
         "color": "Black",
         "other_photos": [
             "assets/images/brando/main.jpg",
@@ -127,9 +227,20 @@
     {
         "id": 10,
         "name": "Ovale",
-        "price": "85.45",
+        "price": "86.00",
         "image": "assets/images/ovale/main.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "These frames feature a unique geometric design that stands out with bold and distinctive contours. Made with premium-quality materials, they offer both durability and a lightweight feel for maximum comfort. The intricate craftsmanship ensures a flawless finish, highlighting attention to detail and an appreciation for refined aesthetics. The temples are carefully engraved with the Nobile branding, enhancing the frame’s sophisticated and modern look. These glasses are a perfect choice for individuals who seek a blend of innovative design, quality, and comfort.",
+        "frame_description":[  
+            "Handcrafted",
+            "FRAME SHAPE: Rectangle",
+            "FRAME COLOUR: Blue&Brown, Gray&Green",
+            "FRAME MATERIAL: Italian acetate"
+        ],
+        "lens_description":[
+            "Material:Trivex",
+            "Lens color: Blue & Green",
+            "Uv400"
+        ],
         "color": "Grenn",
         "other_photos": [
             "assets/images/ovale/main.jpg",
@@ -141,9 +252,20 @@
     {
         "id": 11,
         "name": "Rigido",
-        "price": "86.42",
+        "price": "87.00",
         "image": "assets/images/rigido_moss_green/main.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "These frames feature a unique geometric design that stands out with bold and distinctive contours. Made with premium-quality materials, they offer both durability and a lightweight feel for maximum comfort. The intricate craftsmanship ensures a flawless finish, highlighting attention to detail and an appreciation for refined aesthetics. The temples are carefully engraved with the Nobile branding, enhancing the frame’s sophisticated and modern look. These glasses are a perfect choice for individuals who seek a blend of innovative design, quality, and comfort.",
+        "frame_description":[  
+            "Handcrafted",
+            "FRAME SHAPE: Rectangle",
+            "FRAME COLOUR: Blue&Brown, Gray&Green",
+            "FRAME MATERIAL: Italian acetate"
+        ],
+        "lens_description":[
+            "Material:Trivex",
+            "Lens color: Blue & Green",
+            "Uv400"
+        ],
         "color": "Moss Green",
         "other_photos": [
             "assets/images/rigido_moss_green/main.jpg",
@@ -154,9 +276,20 @@
     {
         "id": 12,
         "name": "Forma",
-        "price": "90.99",
+        "price": "100.00",
         "image": "assets/images/forma_black/main.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "These frames feature a unique geometric design that stands out with bold and distinctive contours. Made with premium-quality materials, they offer both durability and a lightweight feel for maximum comfort. The intricate craftsmanship ensures a flawless finish, highlighting attention to detail and an appreciation for refined aesthetics. The temples are carefully engraved with the Nobile branding, enhancing the frame’s sophisticated and modern look. These glasses are a perfect choice for individuals who seek a blend of innovative design, quality, and comfort.",
+        "frame_description":[  
+            "Handcrafted",
+            "FRAME SHAPE: Rectangle",
+            "FRAME COLOUR: Blue&Brown, Gray&Green",
+            "FRAME MATERIAL: Italian acetate"
+        ],
+        "lens_description":[
+            "Material:Trivex",
+            "Lens color: Blue & Green",
+            "Uv400"
+        ],
         "color": "Black with wreath",
         "other_photos": [
             "assets/images/forma_black/main.jpg",
@@ -167,9 +300,20 @@
     {
         "id": 13,
         "name": "Struttura",
-        "price": "84.90",
+        "price": "85.00",
         "image": "assets/images/struttura/main.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "These frames feature a unique geometric design that stands out with bold and distinctive contours. Made with premium-quality materials, they offer both durability and a lightweight feel for maximum comfort. The intricate craftsmanship ensures a flawless finish, highlighting attention to detail and an appreciation for refined aesthetics. The temples are carefully engraved with the Nobile branding, enhancing the frame’s sophisticated and modern look. These glasses are a perfect choice for individuals who seek a blend of innovative design, quality, and comfort.",
+        "frame_description":[  
+            "Handcrafted",
+            "FRAME SHAPE: Rectangle",
+            "FRAME COLOUR: Blue&Brown, Gray&Green",
+            "FRAME MATERIAL: Italian acetate"
+        ],
+        "lens_description":[
+            "Material:Trivex",
+            "Lens color: Blue & Green",
+            "Uv400"
+        ],
         "color": "Beige",
         "other_photos": [
             "assets/images/struttura/main.jpg",
@@ -181,9 +325,20 @@
     {
         "id": 14,
         "name": "Linea",
-        "price": "90.40",
+        "price": "91.00",
         "image": "assets/images/linea_brown_streaked/main.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "These frames a rectangular design with bold lines, adding a unique and modern touch to the face. Crafted from high-quality materials, they ensure durability and comfort, making them suitable for everyday wear. The meticulous craftsmanship and attention to detail highlight a sense of luxury and authenticity. The temples are elegantly engraved with the brand’s name, showcasing a sleek and distinguished style. These glasses are an ideal choice for those seeking a combination of style and comfort.",
+        "frame_description":[  
+            "Handcrafted",
+            "FRAME SHAPE: Rectangle",
+            "FRAME COLOUR: Black blue brown",
+            "FRAME MATERIAL: Italian acetate"
+        ],
+        "lens_description":[
+            "Material: Trivex",
+            "Lens color: Blue & Yellow",
+            "Uv400"
+        ],
         "color": "Brown Streaked",
         "other_photos": [
             "assets/images/linea_brown_streaked/main.jpg",
@@ -195,9 +350,20 @@
     {
         "id": 15,
         "name": "Rigido",
-        "price": "90.99",
+        "price": "100.00",
         "image": "assets/images/rigido_black_wreath/main.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "These frames feature a unique geometric design that stands out with bold and distinctive contours. Made with premium-quality materials, they offer both durability and a lightweight feel for maximum comfort. The intricate craftsmanship ensures a flawless finish, highlighting attention to detail and an appreciation for refined aesthetics. The temples are carefully engraved with the Nobile branding, enhancing the frame’s sophisticated and modern look. These glasses are a perfect choice for individuals who seek a blend of innovative design, quality, and comfort.",
+        "frame_description":[  
+            "Handcrafted",
+            "FRAME SHAPE: Rectangle",
+            "FRAME COLOUR: Blue&Brown, Gray&Green",
+            "FRAME MATERIAL: Italian acetate"
+        ],
+        "lens_description":[
+            "Material:Trivex",
+            "Lens color: Blue & Green",
+            "Uv400"
+        ],
         "color": "Black with wreath",
         "other_photos": [
             "assets/images/rigido_black_wreath/main.jpg",
@@ -211,9 +377,20 @@
     {
         "id": 16,
         "name": "Filo",
-        "price": "74.39",
+        "price": "75.00",
         "image": "assets/images/filo_black/main.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "These frames feature a unique geometric design that stands out with bold and distinctive contours. Made with premium-quality materials, they offer both durability and a lightweight feel for maximum comfort. The intricate craftsmanship ensures a flawless finish, highlighting attention to detail and an appreciation for refined aesthetics. The temples are carefully engraved with the Nobile branding, enhancing the frame’s sophisticated and modern look. These glasses are a perfect choice for individuals who seek a blend of innovative design, quality, and comfort.",
+        "frame_description":[  
+            "Handcrafted",
+            "FRAME SHAPE: Rectangle",
+            "FRAME COLOUR: Blue&Brown, Gray&Green",
+            "FRAME MATERIAL: Italian acetate"
+        ],
+        "lens_description":[
+            "Material:Trivex",
+            "Lens color: Blue & Green",
+            "Uv400"
+        ],
         "color": "Black",
         "other_photos": [
             "assets/images/filo_black/main.jpg",
@@ -225,9 +402,20 @@
     {
         "id": 17,
         "name": "Rigido",
-        "price": "89.60",
+        "price": "90.00",
         "image": "assets/images/rigido_black/main.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "These frames feature a unique geometric design that stands out with bold and distinctive contours. Made with premium-quality materials, they offer both durability and a lightweight feel for maximum comfort. The intricate craftsmanship ensures a flawless finish, highlighting attention to detail and an appreciation for refined aesthetics. The temples are carefully engraved with the Nobile branding, enhancing the frame’s sophisticated and modern look. These glasses are a perfect choice for individuals who seek a blend of innovative design, quality, and comfort.",
+        "frame_description":[  
+            "Handcrafted",
+            "FRAME SHAPE: Rectangle",
+            "FRAME COLOUR: Blue&Brown, Gray&Green",
+            "FRAME MATERIAL: Italian acetate"
+        ],
+        "lens_description":[
+            "Material:Trivex",
+            "Lens color: Blue & Green",
+            "Uv400"
+        ],
         "color": "Black",
         "other_photos": [
             "assets/images/rigido_black/main.jpg",
@@ -239,9 +427,20 @@
     {
         "id": 18,
         "name": "Cubo",
-        "price": "93.20",
+        "price": "94.00",
         "image": "assets/images/cubo/main.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "These frames feature a unique geometric design that stands out with bold and distinctive contours. Made with premium-quality materials, they offer both durability and a lightweight feel for maximum comfort. The intricate craftsmanship ensures a flawless finish, highlighting attention to detail and an appreciation for refined aesthetics. The temples are carefully engraved with the Nobile branding, enhancing the frame’s sophisticated and modern look. These glasses are a perfect choice for individuals who seek a blend of innovative design, quality, and comfort.",
+        "frame_description":[  
+            "Handcrafted",
+            "FRAME SHAPE: Rectangle",
+            "FRAME COLOUR: Blue&Brown, Gray&Green",
+            "FRAME MATERIAL: Italian acetate"
+        ],
+        "lens_description":[
+            "Material:Trivex",
+            "Lens color: Blue & Green",
+            "Uv400"
+        ],
         "color": "Fiery",
         "other_photos": [
             "assets/images/cubo/main.jpg",
@@ -255,9 +454,20 @@
     {
         "id": 19,
         "name": "Linea",
-        "price": "90.40",
+        "price": "91.00",
         "image": "assets/images/linea_brown/main.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "These frames a rectangular design with bold lines, adding a unique and modern touch to the face. Crafted from high-quality materials, they ensure durability and comfort, making them suitable for everyday wear. The meticulous craftsmanship and attention to detail highlight a sense of luxury and authenticity. The temples are elegantly engraved with the brand’s name, showcasing a sleek and distinguished style. These glasses are an ideal choice for those seeking a combination of style and comfort.",
+        "frame_description":[  
+            "Handcrafted",
+            "FRAME SHAPE: Rectangle",
+            "FRAME COLOUR: Black blue brown",
+            "FRAME MATERIAL: Italian acetate"
+        ],
+        "lens_description":[
+            "Material: Trivex",
+            "Lens color: Blue & Yellow",
+            "Uv400"
+        ],
         "color": "Brown",
         "other_photos": [
             "assets/images/linea_brown/main.jpg",

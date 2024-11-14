@@ -99,42 +99,29 @@
                 <h1 id="product-name" style="font-size: 2rem;font-weight: 900; color: #000; line-height: 110%;text-transform: uppercase; padding-bottom: 10px;">Product Name</h1>
                 <strong id="product-price" style="color: #1a181a; font-size: 21px; font-weight: 550;">Price: €0</strong>
                 <p id="product-color"  style="color: #211f21; padding-bottom: 10px;">Color: </p>
-                <p id="product-description">Product description will be loaded here. jksjdkjflkdsjfkdsjlfjdslkjfldsfjklsdfjkldsjfkldsjfkldsjfklsdjkfljfkldjklsjklfjlsdkjfklds</p>
+                <p id="product-description">Product Description</p>
             </div>
             <div class="product-info-table">
                 <div class="table-section">
                     <div class="table-header">
-                        Details
+                        Frame Description
                         <span class="table-icon">+</span>
                     </div>
-                    <div class="table-content">
+                    <div class="table-content" id="Frame">
                         <ul>
-                            <li>Oyster frontal pins</li>
-                            <li>Compass Star temple pins</li>
-                            <li>5-barrel hinges</li>
-                            <li>Modernist core wire</li>
-                            <li>Desert temple tips</li>
-                            <li>Gold-foil logo inside temple</li>
-                            <li>Handcrafted in Italy by expert craftspeople, read more about <a href="#">our craftsmanship story</a></li>
+                            <!-- List items will be dynamically added here -->
                         </ul>
-    
                     </div>
     
                 </div>
                 <div class="table-section">
                     <div class="table-header">
-                        Size & Fit
+                        Lens Description
                         <span class="table-icon">+</span>
                     </div>
-                    <div class="table-content">
+                    <div class="table-content" id="Lens">
                         <ul>
-                            <li>Oyster frontal pins</li>
-                            <li>Compass Star temple pins</li>
-                            <li>5-barrel hinges</li>
-                            <li>Modernist core wire</li>
-                            <li>Desert temple tips</li>
-                            <li>Gold-foil logo inside temple</li>
-                            <li>Handcrafted in Italy by expert craftspeople, read more about <a href="#">our craftsmanship story</a></li>
+                            <!-- List items will be dynamically added here -->
                         </ul>
                     </div>
             </div>
@@ -265,11 +252,31 @@
                 const product = products.find(p => p.id == productId);
 
                 if (product) {
+                    const lensData = document.getElementById("Lens");
+                    if (product.lens_description && Array.isArray(product.lens_description)) {
+                        const ulElement = lensData.querySelector('ul');
+                        ulElement.innerHTML = '';
+                        product.lens_description.forEach(detail => {
+                            const liElement = document.createElement('li');
+                            liElement.innerHTML = detail; // Use innerHTML to support HTML content
+                            ulElement.appendChild(liElement);
+                        });
+                    }
+                    const frameData = document.getElementById("Frame");
+                    if (product.frame_description && Array.isArray(product.frame_description)) {
+                        const ulElement = frameData.querySelector('ul');
+                        ulElement.innerHTML = '';
+                        product.frame_description.forEach(detail => {
+                            const liElement = document.createElement('li');
+                            liElement.innerHTML = detail; // Use innerHTML to support HTML content
+                            ulElement.appendChild(liElement);
+                        });
+                    }
                     // Update the page with the product details
                     document.getElementById("product-name").textContent = product.name;
                     document.getElementById("product-price").textContent = `Price: € ${product.price}`;
                     document.getElementById("product-color").textContent = `Color: ${product.color}`;
-                    // document.getElementById("product-description").textContent = product.description;
+                    document.getElementById("product-description").textContent = product.description;
                     const thumbnailGallery = document.querySelector(".thumbnail-gallery");
                     const mainImage = document.getElementById("mainImage");
                     
@@ -298,6 +305,7 @@
                          // Append the thumbnail to the gallery
                         thumbnailGallery.appendChild(imgElement);
                     });
+                   
 
                 } else {
                     // If product not found, display a message
@@ -310,6 +318,9 @@
             });
 
     </script>
+
+
+    
 
 
 <script src="assets/js/jquery-3.3.1.min.js"></script>
