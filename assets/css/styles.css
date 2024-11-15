@@ -1,12 +1,26 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f7f7f7;
-}
 
-h1 {
+
+/* h1 {
     margin-top: 20px;
     color: #333;
+} */
+
+@media (max-width: 768px) {
+    .mobile-scroll-gallery {
+        display: flex;
+        overflow-x: auto; /* Use 'auto' for better compatibility */
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+        scroll-snap-type: x mandatory; /* Optional: Snap to each thumbnail */
+    }
+
+    .mobile-scroll-gallery img {
+        display: inline-block;
+        margin-right: 10px;
+        scroll-snap-align: start; /* Optional: Snap alignment */
+        width: 80px; /* Adjust size if needed */
+        height: auto; /* Ensure it maintains aspect ratio */
+    }
 }
 
 .product-grid {
@@ -86,10 +100,13 @@ h1 {
 }
 
 #product-description {
+    text-align: justify;
     word-wrap: break-word;      /* Ensures long words wrap within the container */
     overflow-wrap: break-word;
     word-break: break-word;
-    max-width: 80%;  
+    word-spacing: -0.5px;
+    max-width: 90%;  
+    hyphens: auto;
     color: #666 !important  
               /* Ensure text stays within the container */
 }
