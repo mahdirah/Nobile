@@ -101,12 +101,14 @@
 
 #product-description {
     text-align: justify;
-    word-wrap: break-word;      /* Ensures long words wrap within the container */
-    overflow-wrap: break-word;
-    word-break: break-word;
+    /* word-wrap: break-word;       */
+    /* overflow-wrap: break-word; */
+    /* word-break: break-word; */
+    word-break: normal;           
+    overflow-wrap: normal; 
     word-spacing: -0.5px;
     max-width: 90%;  
-    hyphens: auto;
+    hyphens: none;
     color: #666 !important  
               /* Ensure text stays within the container */
 }
